@@ -1,0 +1,18 @@
+.grid {
+  display: grid;
+  grid-template-rows: repeat(4, 1fr);
+  grid-template-columns: repeat(4, 1fr);
+  width: 800px;
+  height: 600px;
+  margin: 0 auto;
+  grid-gap: 10px;
+}
+img {
+  width: 150px;
+  height: 150px;
+}
+body {
+  background-image: url("images/stage.jpg");
+  background-position: center;
+  background-color: #cccccc;
+}
